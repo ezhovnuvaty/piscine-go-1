@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ls -pm --sort=time
+ls -p --sort=time | tr -s '\n' ','
 
