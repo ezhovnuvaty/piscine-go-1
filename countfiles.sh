@@ -1,4 +1,4 @@
 #! /bin/bash
 
-ls -1 | wc -l
+ls -l | wc -l
 
