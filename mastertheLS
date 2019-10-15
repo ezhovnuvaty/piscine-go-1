@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ls -p --sort=time | tr -s '\n' ','
+ls -p --sort=time | tr -s '\n' ',' | rev | cut -c 2- | rev
 
