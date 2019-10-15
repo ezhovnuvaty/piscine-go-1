@@ -4,8 +4,7 @@ import "fmt"
  
 func main() {
  
-var x = 0
- 
+var x int = 0
 
 for x = 97; x <= 122; x++ {
 	fmt.Print(string(x))
