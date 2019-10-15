@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ls -rpm --sort=time
+ls -pm --sort=time
 
