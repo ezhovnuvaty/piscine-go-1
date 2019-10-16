@@ -1,4 +1,4 @@
 #! /bin/bash
 
-ls -la | wc -l
+find -P | wc -l
 
